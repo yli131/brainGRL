@@ -22,4 +22,10 @@ Code to run: step2_main_SC_2_FC.py
 
 This script is used to determine the optimal graph convolutional network (GCN) architecture for the problem solved in this work. 10-fold cross validation is carried out and the \lambda is set to be 0.1 as a temporary tuning paramter between the FC reconstruction and subject-level classification. For each choice of model architecture, the results including mean squared error for FC regression, F1-score for subject classification and etc. across all 10 folds will be automatically saved.
 
+#### Step 3: Re-format the results in Step 2
+
+Code to run: step3_post_analysis_SC_2_FC.py
+
+The major usage of this script is to re-organize the results from Step 2 due to large file size.
+
 
