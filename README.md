@@ -34,4 +34,34 @@ Code to run: step3_post_analysis_SC_2_FC.py
 
 The major usage of this script is to re-organize the results from Step 2 due to large file size.
 
+==========================================================
 
+#### Step 4: Analysis of the results and identifying optimal model architectures
+
+Code to run: step4_post_analysis2_SC_2_FC.py
+
+Comprehensive investigatation of the results from the 10-fold experiments w.r.t each model architecture. Plot the results regarding FC reconstruction MSE, subject classification precision, recall and F1-score, together with the training time. Introduce a criteria to compare the performance of all the architectures trained and determine 3 models with top performance for the high-resolution \lambda search in the next step.
+
+==========================================================
+
+#### Step 5: \lambda search
+
+Code to run: step5_main_lambda_search.py
+
+Do an extensive search by testing the lambda values within a range on the same 10 folds used previously of the 3 selected models in the previous step.
+
+==========================================================
+
+#### Step 6: Finalize model architecture and parameter setting
+
+Code to run: step6_main_lambda_search2.py
+
+With 3 selected model architecutures and several \lambda values, introduce another criteria to determine the one and only optimal model architecture and \lambda value.
+
+### Contact
+
+Any questions regarding the code, please refer to Yang Li at yli131@ur.rochester.edu
+
+### REFERENCE
+
+Please cite our papers if you use this code in your own work
