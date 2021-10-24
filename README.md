@@ -10,6 +10,16 @@ Please refer to the paper regarding any details of the implementation of the cod
 
 #### Step 1: Load and prepare data
 
+Code to run: step1_load_data.py
+
 The data used in this work is the structural connectivity (SC) network and the functional connectivity (FC) network of altogether 1058 subjects from the Human Connectome Project. Each brain network is a 68x68 matrix that represents the connections between 68 brain regions-of-interest. The code script is used to read the network data from csv files. If user data comes in different format, the code needs to be modified accordingly. The data needs to be put in a separate folder which will be visited by this code script.
+
+All the processed and prepared data will be saved in the 'data' folder for later use.
+
+#### Step 2: Low resolution search for the optimal model architecture
+
+Code to run: step2_main_SC_2_FC.py
+
+This script is used to determine the optimal graph convolutional network (GCN) architecture for the problem solved in this work. 10-fold cross validation is carried out and the \lambda is set to be 0.1 as a temporary tuning paramter between the FC reconstruction and subject-level classification. For each choice of model architecture, the results including mean squared error for FC regression, F1-score for subject classification and etc. across all 10 folds will be automatically saved.
 
 
