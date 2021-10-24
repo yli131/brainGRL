@@ -1,1 +1,1 @@
-# brainGRL
+This is the code repository for the paper titled 'Graph Representation Learning for Modeling the Relationship between Structural and Functional Brain Connectivities'. Please refer to the paper regarding any details of the implementation of the code. 
