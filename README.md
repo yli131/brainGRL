@@ -64,4 +64,4 @@ Any questions regarding the code, please refer to Yang Li at yli131@ur.rochester
 
 ### REFERENCE
 
-Please cite our papers if you use this code in your own work
+Please cite our papers if you use this code in your own work.
