@@ -4,6 +4,6 @@ Yang Li, Gonzalo Mateos and Zhengwu Zhang, Graph Representation Learning for Mod
 
 Please refer to the paper regarding any details of the implementation of the code.
 
-## Scheme of the proposed Graph Representation Learning framework
+### Scheme of the proposed Graph Representation Learning framework
 
 ![Alt text](https://github.com/yli131/brainGRL/blob/f4a25b445edc28c6350dea9a69cab1496f0da03e/scheme.png)
