@@ -8,6 +8,8 @@ Please refer to the paper regarding any details of the implementation of the cod
 
 ![Alt text](https://github.com/yli131/brainGRL/blob/f4a25b445edc28c6350dea9a69cab1496f0da03e/scheme.png)
 
+==========================================================
+
 #### Step 1: Load and prepare data
 
 Code to run: step1_load_data.py
@@ -16,11 +18,15 @@ The data used in this work is the structural connectivity (SC) network and the f
 
 All the processed and prepared data will be saved in the 'data' folder for later use.
 
+==========================================================
+
 #### Step 2: Low resolution search for the optimal model architecture
 
 Code to run: step2_main_SC_2_FC.py
 
 This script is used to determine the optimal graph convolutional network (GCN) architecture for the problem solved in this work. 10-fold cross validation is carried out and the \lambda is set to be 0.1 as a temporary tuning paramter between the FC reconstruction and subject-level classification. For each choice of model architecture, the results including mean squared error for FC regression, F1-score for subject classification and etc. across all 10 folds will be automatically saved.
+
+==========================================================
 
 #### Step 3: Re-format the results in Step 2
 
