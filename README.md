@@ -40,15 +40,15 @@ The major usage of this script is to re-organize the results from Step 2 due to 
 
 Code to run: step4_post_analysis2_SC_2_FC.py
 
-Comprehensive investigatation of the results from the 10-fold experiments w.r.t each model architecture. Plot the results regarding FC reconstruction MSE, subject classification precision, recall and F1-score, together with the training time. Introduce a criteria to compare the performance of all the architectures trained and determine 3 models with top performance for the high-resolution \lambda search in the next step.
+Comprehensive investigatation of the results from the 10-fold experiments w.r.t each model architecture. Plot the results regarding FC reconstruction MSE, subject classification precision, recall and F1-score, together with the training time. Introduce a criteria to compare the performance of all the architectures trained and determine 3 models with top performance for the high-resolution λ search in the next step.
 
 ==========================================================
 
-#### Step 5: \lambda search
+#### Step 5: λ search
 
 Code to run: step5_main_lambda_search.py
 
-Do an extensive search by testing the lambda values within a range on the same 10 folds used previously of the 3 selected models in the previous step.
+Do an extensive search by testing the λ values within a range on the same 10 folds used previously of the 3 selected models in the previous step.
 
 ==========================================================
 
@@ -56,7 +56,7 @@ Do an extensive search by testing the lambda values within a range on the same 1
 
 Code to run: step6_main_lambda_search2.py
 
-With 3 selected model architecutures and several \lambda values, introduce another criteria to determine the one and only optimal model architecture and \lambda value.
+With 3 selected model architecutures and several λ values, introduce another criteria to determine the one and only optimal model architecture and the value of λ.
 
 ### Contact
 
