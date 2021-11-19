@@ -1,6 +1,6 @@
 This is the code repository for the graph representation learning for the relationship between brain structural and functional networks, as described in our paper:
 
-Yang Li, Gonzalo Mateos and Zhengwu Zhang, Graph Representation Learning for Modeling the Relationship between Structural and Functional Brain Connectivities. 
+Yang Li, Gonzalo Mateos and Zhengwu Zhang, Learning to Model the Relationship Between Structural and Functional Brain Connectomes. 
 
 Please refer to the paper regarding any details of the implementation of the code.
 
