@@ -6,8 +6,7 @@ Please refer to the paper regarding any details of the implementation of the cod
 
 ### Scheme of the proposed Graph Representation Learning framework
 
-![Alt text](https://github.com/yli131/brainGRL/blob/f4a25b445edc28c6350dea9a69cab1496f0da03e/scheme.png)
-
+![Alt text](https://github.com/yli131/brainGRL/blob/a30079007b4fecebc438f7959bf0e25a5d73e66f/scheme3.png)
 ==========================================================
 
 #### Step 1: Load and prepare data
